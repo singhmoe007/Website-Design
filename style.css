@@ -4,17 +4,21 @@ html {
     font-family: 'Playfair Display', serif;
 }
 
-
+#fixed {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #FFEBCD;
+    padding: 10px 0 10px 0;
+    border:1px solid bisque;
+    margin: 0px auto;
+}
 
 #nav {
     text-align: center;
-    width: 900px;
+    
     margin: 0px auto;
-    position: fixed;
-    top: 0;
-    background-color: #FFEBCD;
-    padding: 10px 0 10px 0;
-    border:1px solid bisque
 }
 
 #nav li {
